@@ -1,0 +1,74 @@
+body {
+margin: 0;
+padding: 0;
+font-family: 'Rubik', sans-serif;}
+
+
+/*CABEÇALHO*/
+header {
+background-color: rgb(75, 75, 75);
+color: #fff;
+text-align: center;
+padding: 15px 0 10px 0;}
+
+/*NEVEGAÇÃO ENTRA AS PÁGINAS*/
+ul{
+margin: 0;}
+  
+nav ul {
+list-style-type: none;
+background-color: #333;
+padding: 20px 0 20px 0;
+text-align: center;}
+  
+nav ul li {
+display: inline;
+margin: 45px;}
+  
+
+/*BOTÃO DE NAVEGAÇÃO*/
+button{
+color: #ffffff;
+border: 3px solid rgb(130, 127, 127);
+border-radius: 15px 15px 15px 15px;
+padding: 15px 20px 15px 20px;
+cursor: pointer;
+background-color: #333;
+transition: 0.5s ease, color 0.5s ease,0.5s ease;}
+
+button:hover{
+background-color: rgb(172, 170, 170);
+color: #333;
+transform: scale(1.2)}
+  
+
+/*IMAGENS DAS PÁGINAS*/
+.imgheader{border-radius: 10px ;}
+.imgMalala{border-radius: 10px;
+margin: 100px 0 0 30px;}
+
+
+/*TEXTO DAS PÁGINAS*/
+.textoInfancia, .textoAtentado, .textoPremios, .textoMalala{
+float: right;
+text-align: left;
+width: 650px;
+padding: 10px 30px;
+font-size: 1.2em;}
+
+#biografiaContainer {
+    max-height: 300px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+#lerMaisBtn{
+   width: 400px;
+   margin: 65px;
+}
+
+#outros{
+    position: relative;
+    top: 50px;
+    left: -347px;
+}

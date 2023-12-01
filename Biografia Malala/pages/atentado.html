@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atentado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200&family=Mooli&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<!--CABEÇALHO COM IMAGEM E TÍTULO DA PÁGINA-->
+    <header>
+        <img class="imgheader" width="300px" height="170px" src="/img/malala.webp" alt="">
+        <h2>Biografia de Malala Yousafzai</h2>
+    </header>
+
+
+<!--NAVEGAÇÃO ENTRE AS PÁGINAS-->     
+    <nav>
+        <ul>
+
+            <li><a href="infancia.html"> <button>Infância</button></a></li>
+            <li> <a href="atentado.html"> <button> Atentado</button></a></li>
+            <li><a href="premios.html"><button> Discurso, Prêmios e Livros</button></a></li>
+        </ul>
+    </nav>
+
+
+
+
+<!--IMAGEM DA BIOGRAFIA-->   
+    <img class="imgMalala" width="500px" height="300px" src="/img/malala_atentado.webp" alt="">
+
+
+
+
+<!--TEXTO DA BIOGRAFIA-->
+    <button onclick="alterarTexto()" id="outros">Outras informações</button>
+    <div class="textoAtentado" id="biografiaContainer">
+        <h2>Malala e o Atentado</h2>
+        <p>Em 2010, embora o governo tivesse anunciado a expulsão do Talibã da região do Vale do Swat, no Paquistão, a milícia continuava rondando a área. Malala, que já era conhecida por defender em entrevistas e palestras o direito das meninas à educação, passou a receber ameaças de morte.</p>
+        <p>Com 15 anos, Malala estudava na província de Khyber Pakhtunkhwa, No dia 9 de outubro de 2012, enquanto voltava para casa, seu ônibus escolar foi parado por membros do Talibã que subiram a bordo e perguntaram: “Quem é Malala?”. Ninguém respondeu, mas um dos terroristas a reconheceu e disparou três tiros em sua cabeça.</p>            
+        <h2>Exílio na Inglaterra</h2>
+        <p>Malala foi socorrida e levada para um hospital, onde permaneceu em estado grave. Quando apresentou alguma melhora foi levada para Birmingham, na Inglaterra, para ser tratada em um hospital especializado no atendimento aos feridos de guerra.</p>        
+        <p>Malala sobreviveu ao atentado, recuperou-se e não recuou de suas convicções. Tornou-se porta voz de uma causa – o direito à educação. Sua família mudou-se para Birmingham, onde vive exilada.</p>
+    </div>
+    <div class="button"><button id="lerMaisBtn" onclick="toggleBiografia()">Ler Mais</button></div>
+
+    <script src="/script/main.js"></script>
+</body>
+</html>
